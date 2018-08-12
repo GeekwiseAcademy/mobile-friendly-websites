@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile Friendly Websites</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img class="img-responsive" src="img/geekwise_owl.png" alt="geekwise owl logo"></a></div>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav nav-pills navbar-nav pull-right">
+                <li><a href="index.html">Course Outline</a></li>
+                <li><a href="links.html">Handy Links</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lessons <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li role="presentation"><a href="one.html">Day One</a></li>
+                    <li role="presentation"><a href="two.html">Day Two</a></li>
+                    <li role="presentation"><a href="three.html">Day Three</a></li>
+                    <li role="presentation"><a href="four.html">Day Four</a></li>
+                    <li role="presentation"><a href="five.html">Day Five</a></li>
+                    <li role="presentation"><a href="six.html">Day Six</a></li>
+                    <li role="presentation"><a href="seven.html">Day Seven</a></li>
+                    <li role="presentation"><a href="eight.html">Day Eight</a></li>
+                    <li role="presentation"><a href="nine.html">Day Nine</a></li>
+                    <li role="presentation"><a href="ten.html">Day Ten</a></li>
+                    <li role="presentation"><a href="eleven.html">Day Eleven</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li role="presentation"><a href="final.html">Final Project</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h1>Day 2</h1>
+          </div>
+        </div>
+
+        <div class="row section"><!-- Concepts -->
+          <aside class="col-sm-3">
+            <h2>Concepts</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ul class="points">
+              <li>Git Branches</li>
+              <li>Bootstrap</li>
+              <li>Bootstrap Grid System</li>
+              <li>Linking to Framework Best Practices</li>
+              <li>Pull Requests (PR)</li>
+              <li>Offset Columns</li>
+              <li>Practice</li>
+              <li>Take Home</li>
+            </ul>
+          </main>
+        </div><!-- end Concepts -->
+
+        <div class="row section"><!-- Git Branch -->
+          <aside class="col-sm-3">
+              <h2>Git Branch</h2>
+          </aside>
+          <main class="col-md-9">
+            <ul class="points">
+              <li>Branches in git allow you to separate your work-in-progress from the main project</li>
+              <ul class="nested-points">
+                <li>If you are working on a live website and making updates, you don't want your partial code to be displayed live before it's ready</li>
+                <li>Your senior developer can review your code separate from other users' code and assess what needs to be changed or what is working well</li>
+                <li>It reduces the headache of merge conflicts (we'll get to that part!)</li>
+              </ul>
+              <li>Run git branch in your terminal (Git Bash or Atom terminal)</li>
+              <li>To create a new branch, run <code class="language-markup">git checkout -b branch_name</code></li>
+              <li>Now you are on your new branch. All the changes you make will only effect this branch. The master branch will remain unchanged</li>
+              <li>Once you are done with your branch (we will see this condition later) you can delete your branch by running <code class="language-markup">git branch -d branch_name</code></li>
+              <li>If you delete a branch locally, you should also delete it on Github.com. This is referred to as 'branch pruning' and is recommended as a regular practice in front end development</li>
+            </ul>
+          </main>
+        </div><!-- end Git Branch -->
+
+        <div class="row section"><!-- Bootstrap -->
+          <aside class="col-sm-3">
+            <h2>Bootstrap</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ul class="points">
+              <li>Visit Bootstrap <a href="http://getbootstrap.com/" target="_blank">here.</a></li>
+              <li>Intro</li>
+              <li>Bootstrap Sites</li>
+              <li>Download Bootstrap</li>
+              <li>Intro to Grid System</li>
+            </ul>
+          </main>
+        </div><!-- end Bootstrap -->
+
+        <div class="row section"><!-- Bootstrap Sites -->
+          <aside class="col-sm-3">
+            <h2>Bootstrap Sites</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ul class="points">
+              <li><a href="https://www.lyft.com/" target="_blank">Lyft</a></li>
+              <li><a href="http://www.vogue.com/" target="_blank">Vogue</a></li>
+              <li><a href="http://www.newsweek.com/" target="_blank">Newsweek</a></li>
+              <li><a href="https://www.nasa.gov/" target="_blank">NASA</a></li>
+              <li><a href="http://expo.getbootstrap.com/">More...</a></li>
+            </ul>
+          </main>
+        </div><!-- end Bootstrap Sites -->
+
+        <div class="row section"><!-- Download Bootstrap -->
+          <aside class="col-sm-3">
+            <h2>Download Bootstrap</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ul class="points">
+              <li>Click <a href="http://getbootstrap.com/getting-started/#download" target="_blank">here</a> to download Bootstrap.</li>
+              <li>Copy Files</li>
+              <li>Link CSS and JS files (use bootstrap template)</li>
+            </ul>
+          </main>
+        </div><!-- end Download Bootstrap -->
+
+        <div class="row section"><!-- Grid System -->
+          <aside class="col-sm-3">
+            <h2>Grid System</h2>
+          </aside>
+          <main class="col-sm-9">
+            <p class="point">Bootstrap makes it easier to layout web pages by using a grid system made up of rows and columns. Rows are horizontal and columns are vertical. You can have as many row as you'd like, however you can only have 12 columns and they are always nested inside rows. Click
+            <a href="https://getbootstrap.com/examples/grid/">here</a> for examples of the grid system.</p>
+          </main>
+        </div><!-- end Grid System -->
+
+        <div class="row section"><!-- Pull Requests -->
+          <aside class="col-sm-3">
+            <h2>Pull Requests</h2>
+          </aside>
+          <main class="col-sm-9">
+            <p class="point">When you push up your changes to Github.com while you're on a branch, you create a separate branch on Github.com. In order to get your changes from your feature branch into the master branch, you need to merge those two branches together. To do this, create a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>.</p>
+          </main>
+        </div><!-- end Pull Requests -->
+
+        <div class="row section"><!-- Practice -->
+          <aside class="col-sm-3">
+            <h2>Practice</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ol>
+              <li>Create a new repo on Github (initiate with README in order to create a master branch)</li>
+              <li>Clone that repo into your projects folder</li>
+              <li>Create a file structure (index.html, style.css, etc.)</li>
+              <li>Add Bootstrap to your project</li>
+            </ol>
+          </main>
+        </div><!-- end Practice -->
+
+        <div class="row section take-home"><!-- Take Home -->
+          <aside class="col-sm-3">
+            <h2>Take Home</h2>
+          </aside>
+          <main class="col-sm-9">
+            <p>Using the SAME repo from today's practice:</p>
+            <ol>
+              <li>Create a new branch</li>
+              <li>On your new branch, recreate <a href="img/grid.png">this</a> layout</li>
+              <li>Create a pull request</li>
+              <li>Slack me the link to your pull request</li>
+              <li>When you get the thumbs up, merge and delete your branch</li>
+            </ol>
+          </main>
+        </div><!-- end Take Home -->
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

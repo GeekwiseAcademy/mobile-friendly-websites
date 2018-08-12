@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile Friendly Websites</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="welcome-msg">
+    <header>
+        <div class="logo"><a href="index.html"><img class="img-responsive" src="img/geekwise_owl.png" alt="geekwise owl logo"></a></div>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav nav-pills navbar-nav pull-right">
+                <li><a href="index.html">Course Outline</a></li>
+                <li><a href="links.html">Handy Links</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lessons <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li role="presentation"><a href="one.html">Day One</a></li>
+                    <li role="presentation"><a href="two.html">Day Two</a></li>
+                    <li role="presentation"><a href="three.html">Day Three</a></li>
+                    <li role="presentation"><a href="four.html">Day Four</a></li>
+                    <li role="presentation"><a href="five.html">Day Five</a></li>
+                    <li role="presentation"><a href="six.html">Day Six</a></li>
+                    <li role="presentation"><a href="seven.html">Day Seven</a></li>
+                    <li role="presentation"><a href="eight.html">Day Eight</a></li>
+                    <li role="presentation"><a href="nine.html">Day Nine</a></li>
+                    <li role="presentation"><a href="ten.html">Day Ten</a></li>
+                    <li role="presentation"><a href="eleven.html">Day Eleven</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li role="presentation"><a href="final.html">Final Project</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h1>Day 1</h1>
+          </div>
+        </div>
+
+        <div class="row section"><!-- Concepts -->
+          <aside class="col-sm-3">
+            <h2>Concepts</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ul class="points">
+              <li>Curriculum Overview</li>
+              <li>Introductions</li>
+              <li>What are Frameworks?</li>
+              <li>Tools</li>
+              <li>Practice</li>
+              <li>Take Home</li>
+            </ul>
+          </main>
+        </div><!-- end Concepts -->
+
+        <div class="row section"><!-- What are Responsive Frameworks? -->
+          <aside class="col-sm-3">
+              <h2>What are Frameworks?</h2>
+          </aside>
+          <main class="col-md-9">
+            <p>The framework we will be using in this class is Bootstrap. As described on their site, "Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web." This means you can download or link it and use it to quickly build out sites with pre-made components that will look great on any platform. To learn more about frameworks in general, you can go <a href="http://www.w3schools.com/css/css_rwd_frameworks.asp">here.</a></p>
+          </main>
+        </div><!-- end What are Responsive Frameworks? -->
+
+        <div class="row section"><!-- Tools -->
+          <aside class="col-sm-3">
+            <h2>Tools</h2>
+          </aside>
+          <main class="col-sm-9">
+            <ul class="points">
+              <li><a href="https://wwww.slack.com/">Slack</a></li>
+              <li><a href="https://www.git-scm.com/download">Git</a></li>
+              <img src="img/git-option.png" style="width:400px; height:300px" alt="Git Option">
+              <li>**Make sure you check this option</li>
+              <li><a href="https://www.atom.io/">Atom</a></li>
+              <li>Packages to add to Atom:</li>
+              <ul style="margin-left: 50px; list-style-type: circle;">
+                <li>Emmet</li>
+                <li>Platformio IDE Terminal</li>
+                <li>Open-in-Browser</li>
+              </ul>
+              <li><a href="https://www.github.com">Github</a></li>
+              <li><a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/">SSH keys</a></li>
+              <li>**Windows if you're having trouble with the last step, try:<br><code>cat ~/.ssh/id_rsa.pub | clip</code></li>
+            </ul>
+          </main>
+        </div><!-- end Tools -->
+
+        <div class="row section"><!-- Git v Github -->
+            <aside class="col-sm-3">
+                <h2>Git vs Github</h2>
+            </aside>
+            <main class="col-sm-9">
+                <ul class="points">
+                    <li><strong><a href="https://docs.microsoft.com/en-us/azure/devops/git/what-is-git" target="_blank">Git</a></strong> is a Version Control System (VCS) installed on your computer that you access through the "command line".</li>
+                    <li><strong><a href="https://github.com/" target="_blank">Github.com</a></strong> is a website build around Git that stores the files you "push up". Think of it like Dropbox or Google Drive for developers (but with awesome development specific features).</li>
+                </ul>
+            </main>
+        </div><!-- end Git v Github -->
+
+        <div class="row section"><!-- Practice -->
+          <aside class="col-sm-3">
+            <h2>Practice</h2>
+          </aside>
+          <main class="col-sm-9">
+            <pre class="language-markup">
+              <code class="language-markup">
+                cd [folder]
+                cd ..
+                ls
+                ls -al (mac)
+                dir (windows)
+
+                git status
+
+                MOST COMMON:
+                git add [file] or .
+                git commit -m "my commit message"
+                git push
+                git push -u origin branch_name (first time you push to a new branch)
+
+                git clone [link to repo]
+                git pull
+                git checkout -b branch_name
+                git merge branch_name
+              </code>
+            </pre>
+          </main>
+        </div><!-- end Practice -->
+
+        <div class="row section take-home"><!-- Take Home -->
+          <aside class="col-sm-3">
+            <h2>Take Home</h2>
+          </aside>
+          <main class="col-sm-9">
+            <p>Click <a href="">here</a> to access the practice repository then follow these steps:</p>
+            <ol class="points">
+              <li>Fork the repository</li>
+              <li>git clone the repository into your projects directory</li>
+              <li>cd into the directory that cloning creates</li>
+              <li>Open the folder you cloned in Atom</li>
+              <li>In the index.html file and tell me your name and why you chose to take Mobile Friendly Websites</li>
+              <li>Use git to add, commit, and push your files to github</li>
+              <li>Slack me the link to your repository to let me know you've completed the assignment</li>
+            </ol>
+          </main>
+        </div><!-- end Take Home -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
